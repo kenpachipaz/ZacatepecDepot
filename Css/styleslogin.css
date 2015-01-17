@@ -1,0 +1,96 @@
+.tipo input[type=text], input[type=password], select{
+	opacity:0.9;
+	font:14px/36px 'Segoe UI Light','Segoe UI',Arial,sans-serif;
+	border: none;
+	background:none;
+	height: 30px;
+	left: 26px;
+	border-radius:30px;
+	top: 76px;
+	width: 234px;
+	text-indent: 8px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	color:#eee;
+	outline:none;	
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.5, rgb(160, 1, 1)),
+		color-stop(0.5, rgb(160, 1, 1)),
+		color-stop(1, rgb(16, 1, 1))
+	);
+}
+
+.tipo option{
+	font:14px/36px 'Segoe UI Light','Segoe UI',Arial,sans-serif;
+    color: #abcdda; 
+}
+.tipo textarea{
+	opacity:0.9;
+	font:14px/36px 'Segoe UI Light','Segoe UI',Arial,sans-serif;
+	border: none;
+	background:none;
+	height: 80px;
+	left: 26px;
+	border-radius:10px;
+	top: 76px;
+	width: 234px;
+	text-indent: 8px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	color:#eee;
+	outline:none;	
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.5, rgb(160, 1, 1)),
+		color-stop(0.5, rgb(160, 1, 1)),
+		color-stop(1, rgb(16, 1, 1))
+	);
+}
+
+
+.tipo input[type=submit], input[type=button]{
+	
+	opacity:0.9;
+	top:162px;
+	left:25px;
+	width: 100px;
+	height:35px;
+	cursor:pointer;
+	border-radius:6px;
+	box-shadow:0 1px 1px #888;
+	border:none;
+	color:#fff; /*Color del texto del boton*/
+	font:14px/36px 'Segoe UI Light','Segoe UI',Arial,sans-serif;
+	
+	background-image: linear-gradient(bottom, rgb(80,102,127) 50%, rgb(87,109,136) 50%, rgb(106,129,155) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(80,102,127) 50%, rgb(87,109,136) 50%, rgb(106,129,155) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(80,102,127) 50%, rgb(87,109,136) 50%, rgb(106,129,155) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(80,102,127) 50%, rgb(87,109,136) 50%, rgb(106,129,155) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(80,102,127) 50%, rgb(87,109,136) 50%, rgb(106,129,155) 100%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.5, rgb(1,1,160)),
+		color-stop(0.5, rgb(1,1,160)),
+		color-stop(1, rgb(1,1,16))
+	);
+}
+.tipo input[type=file]{
+
+	
+}
+ h2{
+	color: orange;
+	text-align: center;
+}
+td{
+	text-align: left;
+	color: orange;
+}

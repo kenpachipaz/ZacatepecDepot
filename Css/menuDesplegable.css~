@@ -1,0 +1,32 @@
+*{
+   margin:0px;
+   padding:0px;
+}
+#menus{
+ margin:auto;
+ width:600px;
+}
+ul, ol{
+  list-style:none;
+}
+.desplegable li a{
+ background-color:#000;
+ color:#fff;
+ text-decoration:none;
+ padding:10px 15px;
+ display:block;
+}
+.desplegable li a:hover{
+ background-color:#434343;
+}
+.desplegable > li{
+ float:left;
+} 
+.desplegable li ul{
+ display:none;
+ position:absolute;
+ min-width:140px;
+}
+.desplegable li:hover > ul{
+ display:block;
+}

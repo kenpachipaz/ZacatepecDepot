@@ -1,0 +1,81 @@
+.lavalamp {
+    border: 2px solid #27211F;
+    background : rgb(89,89,89);
+    padding: 15px;
+    -webkit-box-shadow: 0 10px 6px rgba(100,0,0,.25);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    border-radius : 10px;
+    -moz-border-radius : 10px;
+    -webkit-border-radius : 20px;
+    background : -webkit-gradient(linear, right top, right bottom, from(rgb(89,89,89)), to(rgb(200,0,1)));
+    background : -moz-gradient(linear, right top, right bottom, from(rgb(89,89,89)), to(rgb(54,54,54)));
+    height: 18px;
+}
+#menu li{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#menu a {
+    text-decoration: none;
+    color: #262626;
+    padding: .1em 4em;
+   line-height: 5px;
+}
+
+#menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    z-index: 100;
+}
+
+/*#menu ul li {
+    list-style: none;
+    float:left;
+}*/
+
+#menu ul li a {
+    padding: 8px;
+    color: #fff;
+    display: block;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.40); 
+}
+#menu a:hover{
+    background : #F37A7A;
+    -moz-border-radius : 55px;
+    -webkit-border-radius : 25px;
+}
+/*#menu{
+ margin:auto;
+ width:600px;
+}*/
+
+/*.desplegable li a{
+ background-color:#000;
+ color:#fff;
+ text-decoration:none;
+ padding:10px 15px;
+ display:block;
+}
+.desplegable li a:hover{
+ background-color:#434343;
+}*/
+.desplegable > li{
+ float:left;
+} 
+.desplegable li ul{
+    background-color: #901004;
+    border: 1px solid #DFE5FC;
+    -webkit-box-shadow: 0 10px 6px rgba(100,0,0,.25);
+    -moz-box-shadow: 0 1px 6px rgba(0,0,0,.25);
+    border-radius : 10px;
+    -moz-border-radius : 15px;
+    -webkit-border-radius : 10px;
+    display:none;
+    position:absolute;
+ }
+.desplegable li:hover > ul{
+ display:block;
+
+}
+

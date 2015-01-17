@@ -1,0 +1,79 @@
+<?php
+    session_start();
+    if ($_SESSION["sesionOK"] == "si") {
+        header('Location:sesion.php');
+    }
+    ?>
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Zacatepec Depot</title>
+<link rel="shortcut icon" href="Imagenes/logo.ico" type="image/x-icon" />
+<link href="estilo.css" media="screen" rel="StyleSheet" type="text/css">
+<link rel="stylesheet" href="Css/styloCuentas.css" />   
+<link rel="stylesheet" href="Css/barramenu.css" /> 
+<link rel="stylesheet" href="Css/styleslogin.css" />
+<!--<link rel="stylesheet" href="Css/menuDesplegable.css" />-->
+</head>
+<body>
+<div id="fondo">
+ <div id="global">
+  <div id="cabecera">
+   </div>
+  </div>
+ <div id = "menu">
+    <div class="lavalamp" >
+      <ul class="desplegable">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#">Departamentos</a>
+	      <ul>   
+	  	<li><a href="deportes.php">Deportes</a>
+	  	<li><a href="electronica.php">Electrónica</a>	
+	 	<li><a href="hogar.php">Hogar</a>	
+	      </ul>
+	  </li>
+	 <li><a href="mision_vision.html">Nosotros</a></li>	
+	  <li><a href="contactanos.html">Contáctanos</a></li>
+      <li><a href="sustentable.html">Sustentabilidad</a></li>
+	  <li><a href="login.html">Login</a></li>
+      </ul>      
+    </div>
+ </div>
+ <form action = "logear.php" method="post" name='formulario' onSubmit='return valida(this)'>
+            <div class="contenido">
+            <div class="tipo">
+                <h2> Iniciar Sesión </h2>
+                <img src="Imagenes/user.png" height="128px" width="128px">
+                <table>
+                    <tr>
+                        <td>Login:</td>
+                        <td><input type="text" name="login"  placeholder="Nombre de Usuario"/></td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>  
+                        <td><input type="password" name="pass" placeholder="password"/></td>
+                    </tr>
+                    <tr>
+                        <td colspan = 2 >
+                        <center><input type = "submit" value = "Login" /></center>
+                    </td>
+                    </tr>
+                </table>
+            </div>
+            </div>
+        </form>
+          
+ </div>
+ <br>
+</div>
+<div class ="pie">
+    <ul align="center">
+	<li>Copyright&copy; 2014, Adminstración de Base de Datos.</li><br>
+       <!-- <li>Desarrollador:</li>
+        <li>I.S.C. Paz Flores Manuel</li>-->
+    </ul>
+ </div>
+</body> 
+</html>

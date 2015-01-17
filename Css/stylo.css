@@ -1,0 +1,56 @@
+body{
+    background-color: #efefff;
+    color:#fff; 
+}
+
+h1{
+ 	font-family:arial;
+ 	text-align:center;
+ 	color: white;
+    font-size: 48px;
+}
+
+h2{
+    font-family:arial;
+    text-align:center;
+    color: white;
+    font-size: 18px;
+}
+
+#columna{
+    position:absolute;    
+    left:1100px;
+    top:70px;
+}
+
+.pie{
+    clear: both;
+    padding:  .5em 1em;
+    border-top: 3px double#fff;
+    text-align: right;
+    color:blue;
+}
+.pie ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.pie li{
+    display: inline;
+    margin-right: 1em;
+}
+.columnaAbajo{
+    clear: both;
+    position:absolute;
+    text-align: left;
+}
+
+
+#global {margin: 0px auto; width: 800px}
+
+
+
+#logotipo {float:left; padding:13px 0px 13px 10px}
+#banner {float:right}
+
+

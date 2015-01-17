@@ -1,0 +1,59 @@
+.lavalamp {
+    border: 2px solid #27211F;
+    background : rgb(89,89,89);
+    padding: 15px;
+    -webkit-box-shadow: 0 10px 6px rgba(100,0,0,.25);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    border-radius : 10px;
+    -moz-border-radius : 10px;
+    -webkit-border-radius : 20px;
+    background : -webkit-gradient(linear, right top, right bottom, from(rgb(89,89,89)), to(rgb(200,0,1)));
+    background : -moz-gradient(linear, right top, right bottom, from(rgb(89,89,89)), to(rgb(54,54,54)));
+    height: 18px;
+}
+ul, ol {
+ list-style:none;
+}
+.menu a {
+    text-decoration: none;
+    color: #2626;
+    line-height: 20px;
+}
+
+.menu ul {
+    margin: 0px;
+    padding: 0px;
+    z-index: 100;
+    display:block;
+}
+
+.menu ul li {
+    list-style: none;
+    float:left;
+}
+
+.menu ul li a {
+    padding: 10px;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.40); 
+}
+.menu a:hover{
+    background : #F0A0A0;
+    border-radius : 55px;
+    -moz-border-radius : 55px;
+    -webkit-border-radius : 55px;
+}
+.desplegable > li{
+ float:left;
+}
+.desplegable li ul{
+ display:none ;
+ position:absolute;
+ min-width 140px:
+}
+.desplegable li:hover > ul{
+ display:block;
+}
+.desplegable ul li ul {
+ float:left;
+}

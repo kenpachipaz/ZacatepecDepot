@@ -1,0 +1,52 @@
+div.contenido{
+    text-align:center;
+}
+
+div.contenido table{
+    margin:0 auto;
+    text-align:left;
+}
+
+div.contenido h4, input{
+    margin:0 auto;
+    text-align:center;
+}
+
+#menus{
+    float: left;
+    
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+#menus li{
+    display: block;
+    float: left;
+    left: 25%;
+    position: absolute;
+}
+#menus a{
+    float: left;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    color: #ff0000;
+    background-color: #f7f8e8;
+    border-right: 1px solid white;
+}
+#menus a:hover{
+    background-color: #336699;
+}
+
+#contenido p{
+    text-align: center;
+}
+#menus ul li ul{
+	display:none;
+	position:absolute;
+	min-width:14px;
+}
+#menus  li:hover > ul{
+	display:block;
+}
+
